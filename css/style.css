@@ -9,7 +9,7 @@ body {
 
 .nav-pills .nav-link {
     border-radius: .25rem;
-    background-color: #000;
+    background-color: #015565;
     color: #fff;
 }
 
@@ -36,4 +36,20 @@ body {
 .btn-custom:hover {
     background-color: #004856;
     border-color: #004856;
+}
+
+.btn-custom.active, .btn-custom:active, .show>.btn-custom.dropdown-toggle {
+    color: #fff;
+    background-color: #004856;
+    background-image: none;
+    border-color: #004856;
+}
+
+.img-thumbnail {
+    background-color: #c8c8c8;
+    border-color: #c8c8c8;
+}
+
+#f-message, #l-message, #o-message, .oname, fieldset.form-info{
+    display: none;
 }
